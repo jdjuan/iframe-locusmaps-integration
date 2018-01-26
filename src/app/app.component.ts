@@ -14,7 +14,7 @@ export class AppComponent {
     this.input.nativeElement.contentWindow.top
       .LocusMaps({
         command: 'setPosition',
-        lat: 9.06792587586318,
+        lat: 5.06792587586318,
         lng: -79.0697255561301
       })
       .then(x => console.log(x))
